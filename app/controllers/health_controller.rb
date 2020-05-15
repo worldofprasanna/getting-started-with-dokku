@@ -1,5 +1,5 @@
 class HealthController < ApplicationController
   def check
-    render json: { message: 'Healthy!!!' }
+    render json: 'Healthy!!!'
   end
 end
